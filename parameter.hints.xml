@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="android.database.sqlite.SQLiteDatabase.query(table,columns,selection,selectionArgs,groupBy,having,orderBy)" />
+        <added pattern="android.widget.AdapterView.setOnItemClickListener(listener)" />
       </blacklist>
     </blacklists>
   </component>
